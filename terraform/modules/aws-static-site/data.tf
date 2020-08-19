@@ -1,3 +1,5 @@
+# ---------- module/aws-static-site/data.tf ----------
+
 data "aws_iam_policy_document" "s3_policy" {
   statement {
     effect    = "Allow"
